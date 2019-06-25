@@ -13,6 +13,7 @@ namespace Lesson02
             Console.Write("Введите свое имя: ");
             string name = Console.ReadLine();       // вводим имя
             Console.WriteLine($"Привет {name}");    // выводим имя на консоль
+            Console.WriteLine("Привет " + name);     // выводим имя на консоль, только другим способом
             Console.ReadLine();
         }
     }
