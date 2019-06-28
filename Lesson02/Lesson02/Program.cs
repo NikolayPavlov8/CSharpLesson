@@ -20,6 +20,7 @@ namespace Lesson02
             string UserName;
             int MaxSize;
 
+
         }
     }
 }
