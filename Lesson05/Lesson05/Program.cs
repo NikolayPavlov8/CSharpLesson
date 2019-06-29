@@ -29,7 +29,11 @@ namespace Lesson05
             Console.WriteLine("Имя: {0}  Возраст: {2}  Рост: {1}м", name, height, age);
             Console.ReadKey();
 
-
+            // получать информацию на консоль через метод Console.ReadLine().
+            Console.Write("Введите свое имя: ");
+            string name1 = Console.ReadLine();
+            Console.WriteLine($"Привет {name1}");
+            Console.ReadKey();
         }
     }
 }
