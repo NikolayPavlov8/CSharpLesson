@@ -34,6 +34,26 @@ namespace Lesson05
             string name1 = Console.ReadLine();
             Console.WriteLine($"Привет {name1}");
             Console.ReadKey();
+
+            /*
+             * Однако минус этого метода является то, что Console.ReadLine считывает информацию 
+             * именно в виде строки. Можно конвертировать в тип int или в тип double
+             */
+            Console.Write("Введите имя: ");
+            string name2 = Console.ReadLine();
+
+            Console.Write("Введите возраст: ");
+            int age1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Введите рост: ");
+            double height1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Введите размер зарплаты: ");
+            decimal salary = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine($"Имя: {name2}  Возраст: {age1}  Рост: {height1}  Зарплата: {salary}руб");
+
+            Console.ReadKey();
         }
     }
 }
