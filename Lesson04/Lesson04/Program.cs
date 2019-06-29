@@ -23,7 +23,7 @@ namespace Lesson04
             // затем введенное имя выводится на консоль
             Console.WriteLine($"Привет {name}");        // выводим имя на консоль
 
-
+            // эта строка, тоже самое, что и выше строкой
             Console.WriteLine("Привет " + name);
 
             Console.ReadKey();
