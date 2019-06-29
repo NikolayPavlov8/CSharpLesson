@@ -25,6 +25,10 @@ namespace Lesson05
             Console.WriteLine($"Имя: {name} Возраст: {age} Рост {height} м");
             Console.ReadKey();
 
+            // так же есть другой способ вывода данных на консоль
+            Console.WriteLine("Имя: {0}  Возраст: {2}  Рост: {1}м", name, height, age);
+            Console.ReadKey();
+
 
         }
     }
