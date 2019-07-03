@@ -34,6 +34,7 @@ namespace Lesson06
             int result = d + c;
             Console.WriteLine("Сумма чисел = " + result);
 
+
         }
     }
 }
