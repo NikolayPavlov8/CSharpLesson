@@ -16,7 +16,16 @@ namespace Dom_Lesson03
     {
         static void Main(string[] args)
         {
+            double UsdToRub = 66.29;
+            double UsdToUah = 27.24;
+            double USD;
 
+            Console.WriteLine("Введите сумму в USD");
+
+            USD = double.Parse(Console.ReadLine());
+
+            Console.WriteLine(USD + "USD в RUB" + USD * UsdToRub);
+            Console.WriteLine(USD + "USD в UAH" + USD * UsdToUah);
         }
     }
 }
