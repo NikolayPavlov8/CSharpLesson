@@ -10,6 +10,7 @@ namespace Lesson_video
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
