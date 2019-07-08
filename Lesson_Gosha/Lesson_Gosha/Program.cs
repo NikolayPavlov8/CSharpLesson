@@ -10,9 +10,11 @@ namespace Lesson_Gosha
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            //Console.WriteLine("Hello World");
 
-            Console.Read();
+
+
+            Console.ReadKey();
         }
     }
 }
