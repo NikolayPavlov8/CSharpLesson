@@ -15,6 +15,12 @@ namespace Lesson02
             Console.WriteLine($"Привет {name}");    // выводим имя на консоль
             Console.WriteLine("Привет " + name);     // выводим имя на консоль, только другим способом
             Console.ReadLine();
+
+            // Имя переменные
+            string UserName;
+            int MaxSize;
+
+
         }
     }
 }
