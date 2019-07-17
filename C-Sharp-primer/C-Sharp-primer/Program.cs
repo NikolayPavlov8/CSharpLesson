@@ -20,6 +20,9 @@ namespace C_Sharp_primer
             Console.WriteLine("h в нижнем регистре = {0}", h.ToLower());
             Console.WriteLine("h содеожит e? : {0}", h.Contains("е"));
             Console.WriteLine("Замена {0}", h.Replace("lo", ""));
+
+            //Выведем две пустые строки и звуковой сигнал после слова Hello
+            Console.WriteLine("Hello\n\n\a");
         }
     }
 }
