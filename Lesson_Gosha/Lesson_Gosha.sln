@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gosha_lesson05", "Gosha_les
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gosha_Lesson06", "Gosha_Lesson06\Gosha_Lesson06.csproj", "{D79282B8-D0A7-4AA4-B37E-6AE1D49725DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gosha_Lesson07", "Gosha_Lesson07\Gosha_Lesson07.csproj", "{64779A99-6D46-4060-87FE-58DF624B44B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D79282B8-D0A7-4AA4-B37E-6AE1D49725DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79282B8-D0A7-4AA4-B37E-6AE1D49725DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79282B8-D0A7-4AA4-B37E-6AE1D49725DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64779A99-6D46-4060-87FE-58DF624B44B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64779A99-6D46-4060-87FE-58DF624B44B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64779A99-6D46-4060-87FE-58DF624B44B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64779A99-6D46-4060-87FE-58DF624B44B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
